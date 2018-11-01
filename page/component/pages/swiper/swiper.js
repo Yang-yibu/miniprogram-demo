@@ -12,7 +12,16 @@ Page({
     vertical: false,
     autoplay: false,
     interval: 2000,
-    duration: 500
+    duration: 500,
+
+    currentIndex: 0
+  },
+
+  /* 3D 这里实现控制中间凸显图片的样式 */
+  handleChange(e) {
+    this.setData({
+      currentIndex: e.detail.current
+    })
   },
 
   changeIndicatorDots() {
