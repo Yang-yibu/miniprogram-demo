@@ -1,5 +1,5 @@
 .page-body-info {
-  height: 250rpx;
+  /* height: 250rpx; */
 }
 .page-body-text-small {
   font-size: 24rpx;
@@ -12,4 +12,8 @@
 }
 .page-body-text-location text {
   margin: 10rpx;
+}
+
+.page-body-text-location.small {
+  font-size: 14px;
 }

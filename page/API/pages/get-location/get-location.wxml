@@ -16,6 +16,12 @@
             <text>E: {{location.longitude[0]}}°{{location.longitude[1]}}′</text>
             <text>N: {{location.latitude[0]}}°{{location.latitude[1]}}′</text>
           </view>
+          <view class="page-body-text-location small">
+            <text selectable="{{ 1 }}">经度（E）: {{ location1.lng }}</text>
+          </view>
+          <view class="page-body-text-location small">
+            <text selectable="{{ 1 }}">纬度（N）: {{ location1.lat }}</text>
+          </view>
         </block>
       </view>
       <view class="btn-area">

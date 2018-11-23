@@ -20,7 +20,8 @@ Page({
         console.log(res)
         that.setData({
           hasLocation: true,
-          location: formatLocation(res.longitude, res.latitude)
+          location: formatLocation(res.longitude, res.latitude),
+          location1: { lng: res.longitude, lat: res.latitude }
         })
       }
     })
